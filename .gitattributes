@@ -1,2 +1,4 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+DATA/ filter=lfs diff=lfs merge=lfs -text
+DATA/ filter=lfs diff=lfs merge=lfs -text
+DATA/RAW/train.parq filter=lfs diff=lfs merge=lfs -text
+DATA/RAW/test.parq filter=lfs diff=lfs merge=lfs -text
